@@ -40,7 +40,7 @@ def getJSONResponse(url: str) -> 'json dict':
 
 
 def buildAPIUrl(apiString: str, params: [('key','value')]) -> str:
-    '''Creates the full MapQuest api url with specified params.
+    '''Creates the full Blogger api url with specified params.
     API (Directions or Elevations) is specified by apiString'''
     
     queryParams = [('key', BLOGGER_API_KEY)]
