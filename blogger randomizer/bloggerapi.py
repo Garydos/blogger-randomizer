@@ -231,7 +231,7 @@ def printRandomTen(blogs):
             
 
 if __name__ == '__main__':
-    blogs = generateBloggers(pathlib.Path('blogs.txt'))
+    blogs = generateBloggers(pathlib.Path(os.path.dirname(os.path.abspath(__file__))) / pathlib.Path('blogs.txt'))
     checkForUpdates = True
     n = 10
     ten = False
