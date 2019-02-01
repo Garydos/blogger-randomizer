@@ -9,6 +9,7 @@ Move the "blogger randomizer" directory to a location of your choosing and add i
 
 ### Usage
 Place the url's for blogs you'd like to randomize in the blogs.txt file, with each blog in its own line
+
 Example blogs.txt:
 ```
 http://afrofunkforum.blogspot.com/
@@ -17,10 +18,12 @@ http://bristolfunk.blogspot.com/
 ```
 
 To run the script, simply call it from the command line
+
 For example:
 ```
 ./bloggerapi.py
 ```
+
 If you are running it from the blogger randomizer directory
 
 ### Notes
